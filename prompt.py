@@ -12,7 +12,7 @@ menu_options = [
     # MenuOption("1", "List all repositories", ListAllRepos()),
     MenuOption("10", "Consolidate files from directory", ConsolidateFiles()),
     MenuOption("11", "Remove and Copy", RenameAndCopyFiles()),
-    MenuOption("12", "Quiz", QuizCommand('resources/questions')),
+    MenuOption("12", "Quiz", QuizCommand()),
     MenuOption("X", "Exit", None)
 ]
 for option in menu_options:

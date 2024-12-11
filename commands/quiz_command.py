@@ -8,9 +8,9 @@ from config.init_config import Config
 from commands.filter_file_command import FilterFilesCommand
 
 class QuizCommand:
-    def __init__(self, questions_dir):
+    def __init__(self):
         self.answers_file = None
-        self.questions_dir = questions_dir
+        self.questions_dir = Config().get_questions_path()
         self.questions = []
 
 
