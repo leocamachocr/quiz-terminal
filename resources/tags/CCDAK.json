@@ -1,0 +1,17 @@
+[
+  "SchemaRegistry",
+  "Security",
+  "Consumer",
+  "ConsumerGroup",
+  "Zookeeper",
+  "Producer",
+  "KSQL",
+  "Kafka-Connect",
+  "Kafka-Consumer",
+  "Monitoring",
+  "Kafka Streams",
+  "REST Proxy",
+  "Topic",
+  "CLI",
+  "Broker"
+]

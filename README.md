@@ -1,2 +1,7 @@
-# quiz-terminal
-App to works as a quiz app for terminal. 
+# Statistics for GitHub
+
+## Dependencies
+- [Python 3.8](https://www.python.org/downloads/release/python-380/)
+
+pip install PyGithub
+pip install prettytable

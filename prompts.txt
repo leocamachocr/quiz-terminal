@@ -1,0 +1,10 @@
+Lea todos los archivos, Identifique los siguientes campos
+id: uuid generado aleatoriamente
+question: pregunta que se realia
+options: las opciones de la respuesta
+answersIndex: los indices de las respuestas correctas, es un arreglo de ints
+tags: identifique los tags de la pregunta. puede ser una sola palabra que referencie la pregunta
+explanation: identifique la explicación dada, no use kafka como tag porque todas las preguntas son de kafka use algo mas relacionado a la pregunta
+
+Genere un arreglo json con todos los resultados procesados.
+T
