@@ -115,7 +115,3 @@ class QuizCommand:
 
         if incorrect_questions:
             self.save_incorrect_answers(incorrect_questions)
-
-if __name__ == "__main__":
-    quiz = QuizCommand('resources/questions')
-    quiz.execute()
