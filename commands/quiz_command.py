@@ -74,6 +74,8 @@ class QuizCommand:
         # Load questions from the filtered files
         self.load_questions(filtered_files)
 
+        #show number of questions loaded
+        print(f"\n{len(self.questions)} questions loaded from {len(filtered_files)} files.")
         num_questions = int(input("Enter the number of questions: "))
         selected_questions = random.sample(self.questions, num_questions)
 
@@ -106,7 +108,7 @@ class QuizCommand:
                 incorrect_questions.append(question)
                 correct_options = ", ".join([question.options[i] for i in question.answersIndex])
                 print(f"\033[92mCorrect answer: {correct_options}\033[0m")  # Green text
-                print("\033[90mExplanation: " + question.explanation + "\033[0m")  # Dark gray text
+                print(f"\033[92mExplanation: {question.explanation}\033[0m")  # Green text
                 self.save_answer(question.id, False)
 
         print("\nQuiz Summary:")
